@@ -48,13 +48,10 @@ export default function Home() {
           </Widget>
 
           <Widget>
-              <Widget.Header>
-                <h1> The legend of Zelda</h1>
-              </Widget.Header>
-            <Widget.Content>          
-              
+            <Widget.Content>
+              <h1>Quizes da Galera</h1>
 
-              <p>Lorem ipsum</p>
+              <p>lorem ipsum dolor sit amet...</p>
             </Widget.Content>
           </Widget>
           <Footer/>
