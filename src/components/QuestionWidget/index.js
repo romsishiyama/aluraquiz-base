@@ -1,8 +1,8 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/prop-types */
 import React from 'react';
-import Widget from '../src/components/Widget';
-import Button from '../src/components/Button';
-
-
+import Widget from '../Widget';
+import Button from '../Button';
 
 export default function QuestionWidget({
   question, totalQuestions, questionIndex, onSubmit,

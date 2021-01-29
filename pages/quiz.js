@@ -1,20 +1,12 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import styled from 'styled-components';
-import { useRouter } from 'next/router';
 import db from '../db.json';
-import Widget from '../src/components/Widget';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
-import Input from '../src/components/input';
-import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
 import QuestionWidget from '../src/components/QuestionWidget';
 import LoadingWidget from '../src/components/LoadingWidget';
-
 
 const screenStates = {
   QUIZ: 'QUIZ',
