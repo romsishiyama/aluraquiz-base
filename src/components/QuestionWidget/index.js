@@ -7,7 +7,11 @@ import Button from '../Button';
 export default function QuestionWidget({
   question, totalQuestions, questionIndex, onSubmit,
 }) {
+  const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
+  const [isQuestionSubmited, setIsQuestionSubmited] = React.useState();
   const questionId = `question__${questionIndex}`;
+  const isCorrect = selectedAlternative == question.answer;
+
   return (
     <Widget>
       <Widget.Header>
@@ -29,7 +33,11 @@ export default function QuestionWidget({
         <p>{question.description}</p>
         <form onSubmit={(e) => {
           e.preventDefault();
-          onSubmit();
+          setIsQuestionSubmited(true);
+          setTimeout(() => {
+            setIsQuestionSubmited(false);
+            onSubmit();
+          }, 1000);
         }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -37,12 +45,14 @@ export default function QuestionWidget({
             return (
               <Widget.Topic
                 as="label"
+                key={alternativeId}
                 htmlFor={alternativeId}
               >
                 <input
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
+                  onChange={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
                 />
                 {alternative}
@@ -51,6 +61,8 @@ export default function QuestionWidget({
           })}
 
           <Button type="submit">Confirmar</Button>
+          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
+          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
         </form>
       </Widget.Content>
     </Widget>
