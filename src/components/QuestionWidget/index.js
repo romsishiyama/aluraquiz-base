@@ -12,7 +12,7 @@ export default function QuestionWidget({
     <Widget>
       <Widget.Header>
         <h3>
-          {` Pergunta ${questionIndex} de ${totalQuestions} `}
+          {` Pergunta ${questionIndex + 1} de ${totalQuestions} `}
         </h3>
       </Widget.Header>
       <img
