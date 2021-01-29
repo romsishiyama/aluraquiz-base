@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 import React from 'react';
 import { useRouter } from 'next/router';
 import db from '../db.json';
@@ -31,14 +32,12 @@ export default function Home() {
               e.preventDefault();
 
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo um submit no react');
             }}
             >
               <Input
                 name="nomeDoUsuario"
                 onChange={(e) => {
                   setName(e.target.value);
-                  console.log(name);
                 }}
                 placeholder="Qual Seu Nome ?"
                 value={name}
