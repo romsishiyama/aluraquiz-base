@@ -6,7 +6,7 @@ import Button from '../Button';
 import AlternativesForm from '../AlternativesForm';
 
 export default function QuestionWidget({
-  question, totalQuestions, questionIndex, onSubmit,addResult
+  question, totalQuestions, questionIndex, onSubmit, addResult,
 }) {
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState();
@@ -69,7 +69,6 @@ export default function QuestionWidget({
           })}
 
           <Button type="submit" disabled={!hasAlternativeSelected}>Confirmar</Button>
-          {selectedAlternative}
           {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
           {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
         </AlternativesForm>

@@ -1,21 +1,22 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import QuestionWidget from '../src/components/QuestionWidget';
-import LoadingWidget from '../src/components/LoadingWidget';
-import ResultWidget from '../src/components/ResultWidget';
+// import db from '../../../db.json';
+import QuizLogo from '../../components/QuizLogo';
+import QuizBackground from '../../components/QuizBackground';
+import QuizContainer from '../../components/QuizContainer';
+import QuestionWidget from '../../components/QuestionWidget';
+import LoadingWidget from '../../components/LoadingWidget';
+import ResultWidget from '../../components/ResultWidget';
+// import QuizPage from '../../src/components/QuizPage';
 
-const screenStates = {
-  QUIZ: 'QUIZ',
-  RESULT: 'RESULT',
-  LOADING: 'LOADING',
-};
+export default function QuizPage({ db }) {
+  const screenStates = {
+    QUIZ: 'QUIZ',
+    RESULT: 'RESULT',
+    LOADING: 'LOADING',
+  };
 
-export default function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [results, setResults] = React.useState([]);
   const totalQuestions = db.questions.length;
@@ -28,8 +29,7 @@ export default function QuizPage() {
       ...results,
       result,
     ]);
-    
-  };
+  }
 
   React.useEffect(() => {
     setTimeout(() => {
@@ -53,18 +53,19 @@ export default function QuizPage() {
         <QuizLogo />
 
         {screenState === screenStates.QUIZ && (
-          <QuestionWidget
-            question={question}
-            questionIndex={questionIndex}
-            totalQuestions={totalQuestions}
-            onSubmit={handleSubmitQuiz}
-            addResult={addResult}
-          />
+        <QuestionWidget
+          question={question}
+          questionIndex={questionIndex}
+          totalQuestions={totalQuestions}
+          onSubmit={handleSubmitQuiz}
+          addResult={addResult}
+        />
         )}
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
         {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+
       </QuizContainer>
     </QuizBackground>
   );
