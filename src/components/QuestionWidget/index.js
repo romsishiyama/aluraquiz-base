@@ -4,6 +4,7 @@ import React from 'react';
 import Widget from '../Widget';
 import Button from '../Button';
 import AlternativesForm from '../AlternativesForm';
+import BackLinkArrow from '../BackLinkArrow';
 
 export default function QuestionWidget({
   question, totalQuestions, questionIndex, onSubmit, addResult,
@@ -17,6 +18,7 @@ export default function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {` Pergunta ${questionIndex + 1} de ${totalQuestions} `}
         </h3>

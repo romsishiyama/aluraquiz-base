@@ -1,8 +1,10 @@
 /* eslint-disable func-names */
 import React from 'react';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
+import Link from '../src/components/Link';
 import Footer from '../src/components/Footer';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
@@ -18,7 +20,16 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
-        <Widget>
+        <Widget
+          as={motion.section}
+          transition={{ delay: 0.2, duration: 1 }}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Header>
             <h1>
               {' '}
@@ -42,14 +53,35 @@ export default function Home() {
                 placeholder="Qual Seu Nome ?"
                 value={name}
               />
-              <Button type="submit" disabled={name.length === 0}>
+              <Button
+                type="submit"
+                disabled={name.length === 0}
+                as={motion.button}
+                transition={{ delay: 0.7, duration: .2 }}
+                variants={{
+                  show: { opacity: 1, y: '0' },
+                  hidden: { opacity: 0, y: '100%' },
+                }}
+                initial="hidden"
+                animate="show"
+
+              >
                 {`Jogar ${name}`}
               </Button>
             </form>
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+          as={motion.section}
+          transition={{ delay: 0.7, duration: 1 }}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Content>
             <h1>Quizes da galera</h1>
             <ul>
@@ -62,7 +94,7 @@ export default function Home() {
 
                 return (
                   <li key={linkExterno}>
-                    <Widget.Topic href={`/quiz/${projectNme}___${githubUser}`}>
+                    <Widget.Topic as={Link} href={`/quiz/${projectNme}___${githubUser}`} disabled={name.length === 0}>
                       {`${githubUser}/${projectNme}`}
                     </Widget.Topic>
                   </li>
@@ -71,7 +103,16 @@ export default function Home() {
             </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer
+          as={motion.section}
+          transition={{ delay: 1.2, duration: 1 }}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        />
       </QuizContainer>
     </QuizBackground>
   );
