@@ -8,6 +8,7 @@ import QuizContainer from '../../components/QuizContainer';
 import QuestionWidget from '../../components/QuestionWidget';
 import LoadingWidget from '../../components/LoadingWidget';
 import ResultWidget from '../../components/ResultWidget';
+import Footer from '../../components/Footer';
 // import QuizPage from '../../src/components/QuizPage';
 
 export default function QuizPage({ db }) {

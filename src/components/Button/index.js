@@ -1,14 +1,14 @@
-/* eslint-disable linebreak-style */
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Button = styled.button`
-  background-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.laranja};
   color: ${({ theme }) => theme.colors.contrastText};
   border-radius: ${({ theme }) => theme.borderRadius};
   border: 0;
+  border-color: ${({ theme }) => theme.colors.success}
   width: 100%;
-  padding: 10px 16px;
+  padding: 15px 25px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1;
@@ -18,10 +18,10 @@ const Button = styled.button`
   cursor: pointer;
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: .3;
   }
   &:disabled {
-    background-color: #979797;
+    background-color: #FD7521;
     cursor: not-allowed;
   }
 `;

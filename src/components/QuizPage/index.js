@@ -10,6 +10,7 @@ import LoadingWidget from '../LoadingWidget';
 import ResultWidget from '../ResultWidget';
 import QuizDaGaleraPage from '../../../pages/quiz/[id]';
 import Widget from '../Widget';
+import Footer from '../Footer';
 
 export default function QuizPage(props) {
   const screenStates = {

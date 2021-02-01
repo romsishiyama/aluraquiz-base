@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
-import Link from '../src/components/Link';
+// import Link from '../src/components/Link';
 import Footer from '../src/components/Footer';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
@@ -13,7 +13,7 @@ import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
 
 export default function Home() {
-  const router = useRouter();
+const router = useRouter();
   const [name, setName] = React.useState('');
 
   return (
@@ -50,14 +50,14 @@ export default function Home() {
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
-                placeholder="Qual Seu Nome ?"
+                placeholder="Como posso te chamar?"
                 value={name}
               />
               <Button
                 type="submit"
                 disabled={name.length === 0}
                 as={motion.button}
-                transition={{ delay: 0.7, duration: .2 }}
+                transition={{ delay: 0.7, duration: 0.2 }}
                 variants={{
                   show: { opacity: 1, y: '0' },
                   hidden: { opacity: 0, y: '100%' },
@@ -66,7 +66,7 @@ export default function Home() {
                 animate="show"
 
               >
-                {`Jogar ${name}`}
+                {`Vamos lá ${name}`}
               </Button>
             </form>
           </Widget.Content>
@@ -94,7 +94,7 @@ export default function Home() {
 
                 return (
                   <li key={linkExterno}>
-                    <Widget.Topic as={Link} href={`/quiz/${projectNme}___${githubUser}`} disabled={name.length === 0}>
+                    <Widget.Topic href={`/quiz/${projectNme}___${githubUser}`} disabled={name.length === 0}>
                       {`${githubUser}/${projectNme}`}
                     </Widget.Topic>
                   </li>

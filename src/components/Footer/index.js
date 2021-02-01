@@ -3,13 +3,15 @@ import styled from 'styled-components';
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
-  padding: 20px;
+  padding: 50 px;
+  margin: 60px 20px;
   display: flex;
   align-items: center;
   border-radius: 4px; 
+  justify-content: justify-content;
   img {
-    width: 58px;
-    margin-right: 23px;
+    width: 48px;
+    margin-right: 13px;
   }
   a {
     color: white;
@@ -33,14 +35,23 @@ export default function Footer(props) {
         <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
       </a>
       <p>
-        Orgulhosamente criado durante
+        Romênia Ishiyama 
         {' '}
-        a
+        
         {' '}
         <a href="https://www.alura.com.br/">
-          <span>Imersão React da Alura</span>
+          <span> Imersão React</span>
         </a>
       </p>
+      <a href="https://twitter.com/Romeniaishiyama">
+        <img src="https://img.icons8.com/carbon-copy/100/000000/twitter--v1.png" alt="Logo Twitter" />
+      </a>
+      <a href="https://www.instagram.com/roms_flaneur/?hl=pt-br">
+        <img src="https://img.icons8.com/carbon-copy/100/000000/instagram-new.png" alt="Logo Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/in/romeniaishiyama//">
+        <img src="https://img.icons8.com/carbon-copy/100/000000/linkedin.png" alt="Logo Linkedin" />
+      </a>
     </FooterWrapper>
   );
 }

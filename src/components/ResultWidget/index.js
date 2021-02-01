@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import react from 'react';
 import Widget from '../Widget';
+import Footer from '../Footer';
 
 export default function ResultWidget({ results }) {
   return (

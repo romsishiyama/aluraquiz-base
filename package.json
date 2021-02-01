@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "framer-motion": "^3.2.2-rc.1",
-    "next": "latest",
+    "next": "^10.0.6",
     "prop-types": "^15.7.2",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-is": "^16.8.0",
     "styled-components": "^5.0.0"
   },
@@ -25,5 +25,16 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romsishiyama/aluraquiz-base.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/romsishiyama/aluraquiz-base/issues"
+  },
+  "homepage": "https://github.com/romsishiyama/aluraquiz-base#readme"
 }
