@@ -1,12 +1,12 @@
 {
     "bg": "https://images.pexels.com/photos/6635222/pexels-photo-6635222.jpeg?cs=srgb&dl=pexels-romenia-ishiyama-6635222.jpg&fm=jpg",
     "title": "Aventuras da Roms",
-    "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+    "description": "Quiz sobre CSS e montanhas do Brasil. Enquanto assimila um, aprende um pouco do outro!",
     "questions": [
       {
         "image": "https://media.giphy.com/media/32074Ndlgidhu/giphy.gif",
         "title": "Como fazer um seletor por id via CSS? Qual é a maior montanha em solo brasileiro?",
-        "description": "Essa é pra aquecer",
+        "description": "Quiz sobre CSS e montanhas do Brasil",
         "answer": 2,
         "alternatives": [
           ".elemento",
@@ -18,7 +18,7 @@
       {
         "image": "https://media.giphy.com/media/3o7buibpMgSBln8dNu/giphy.gif",
       "title": "Como se insere um comentário? A que município pertence a Serra do Caraça?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         "/ Comentário / | Espera Feliz - ES",
@@ -30,7 +30,7 @@
       {
       "image": "https://media.giphy.com/media/Vzf4Kccr2ltWWTdnts/giphy.gif",
       "title": "Como selecionar todas as tags <p>? A nascente do Rio São Francisco nasce em qual serra?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 0,
       "alternatives": [
         ".p { } | Serra da Canastra",
@@ -42,7 +42,7 @@
   {
     "image": "https://media.giphy.com/media/C9rvUHDXptgSRCooTv/giphy.gif",
     "title": "Com a propriedade justify-content, qual valor atribuído exibe os itens com espaçamento igual entre eles? A que município pertence a Vila de Paranapiacaba?",
-    "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+    "description": "Quiz sobre CSS e montanhas do Brasil",
     "answer": 2,
     "alternatives": [
       "flex-start | Ribeirão Pires" ,
@@ -54,7 +54,7 @@
   {
     "image": "https://media.giphy.com/media/xT0xepkqDOsK3NTjtS/giphy.gif",
       "title": "Como aplicar a propriedade que define a cor do texto? O pico do Marins se localiza em qual estado?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 1,
       "alternatives": [
         "color; font | Rio Grande do Sul" ,
@@ -66,7 +66,7 @@
     {
       "image": "https://media.giphy.com/media/1yk0v6WtCinP5Ptz6G/giphy.gif",
       "title": "Qual das alternativas define uma medida em polegadas? Qual destes picos pertencem ao Parque nacional do Caparaó?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 0,
       "alternatives": [
         "px | Pico da Onça",
@@ -78,7 +78,7 @@
     {
       "image": "https://media.giphy.com/media/ST4XJrqX7JyZa/giphy.gif",
       "title": "Qual das seguintes propriedades altera a cor da borda inferior? Qual o nome do pico mais alto da região de Andradas-MG?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         ":bottom | Pico da Onça" ,
@@ -91,7 +91,7 @@
     {
       "image": "https://media.giphy.com/media/ZY3W96Mvat8EFTCclA/giphy.gif",
       "title": "Qual das propriedades é usada para definir a sombra do texto em torno de um texto? A qual município do estado paulista pertence o Morro do Saboó?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         "white-space | Osasco" ,
@@ -103,7 +103,7 @@
     {
       "image": "https://media.giphy.com/media/5UDrIVpRo2iTok7qGp/giphy.gif",
       "title": "Qual das seguintes propriedades é usada para alterar a face de uma fonte? O Morro do Açu se localiza em qual estado?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 2,
       "alternatives": [
         "family-style | Minas Gerais" ,
@@ -115,7 +115,7 @@
     {
       "image": "https://media.giphy.com/media/9oIP19hZ9kzKJUmpdU/giphy.gif",
       "title": "Qual das propriedades serve como abreviatura para as propriedades do marcador? Qual destes picos pertence à Serra da Bocaína?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 1,
       "alternatives": [
         "list-style-type | Pico das Almas",
@@ -127,7 +127,7 @@
     {
       "image": "https://media.giphy.com/media/frFqCW3keJvODF5PMy/giphy.gif",
       "title": "Qual seletor corresponde a um elemento com base em seu id? Qual destas pedras pertencem à Serra Fina?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 2,
       "alternatives": [
         ".elemento | Pedra do Baú" ,
@@ -139,7 +139,7 @@
     {
       "image": "https://media.giphy.com/media/NHnR6qihnmvsZ6Zblv/giphy.gif",
       "title": "Qual das propriedades é usada para sublinhar, sobrelinhamento e tachado? A Chapada Diamantina abriga qual dos picos abaixo?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         "text-indent | Pico da Onça" ,
@@ -151,7 +151,7 @@
     {
       "image": "https://media.giphy.com/media/mkq3hyjmjKAZdBXB2C/giphy.gif",
       "title": "Qual das é usada para controlar o fluxo e a formatação do texto? O icônico Dedo de Deus pertence a que Parque Nacional?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 2,
       "alternatives": [
         "text-shadow | Chapada Diamantina" ,
@@ -163,7 +163,7 @@
     {
       "image": "https://media.giphy.com/media/cn2noc6qR0HjAfVzmn/giphy.gif",
       "title": "Como você modifica uma imagem de borda? O Monte Roraima faz divida com quais países?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 1,
       "alternatives": [
         "border-variable: image url(image.png); | Equador e Peru" ,
@@ -175,7 +175,7 @@
     {
       "image": "https://media.giphy.com/media/cjPXqW4VW3RfzLKxX9/giphy.gif",
       "title": "Como você pode criar cantos arredondados? A Serra de Ibitiraquire abriga quais montantnhas?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 2,
       "alternatives": [
         "alpha-effect: round-corner; | Prateleiras e Morro do Couto" ,
@@ -187,7 +187,7 @@
     {
       "image": "https://media.giphy.com/media/kwEmwFUWO5Ety/giphy.gif",
       "title": "Qual propriedade é usada para alterar a cor do plano de fundo? Qual o maior pico avistado da cidade de Aiuruoca - MG?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         ".elemento | Pico do Itambé",
@@ -199,7 +199,7 @@
     {
       "image": "https://media.giphy.com/media/42IAU2GyaTwXe/giphy.gif",
       "title": "Qual é a sintaxe CSS correta? A Serra do Lopo faz divisa com quais estados?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 0,
       "alternatives": [
         "body {color: black;} | São paulo e Minas Gerais",
@@ -211,7 +211,7 @@
     {
       "image": "https://media.giphy.com/media/26BGMAJeaPyl29JcI/giphy.gif",
       "title": "Qual das seguintes propriedades serve como abreviatura para as propriedades de preenchimento? Qual deles pertence ao estado de Santa Catarina?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 2,
       "alternatives": [
         "padding-top | Pico da Onça" ,
@@ -223,7 +223,7 @@
     {
       "image": "https://media.giphy.com/media/SkIoHdHeCJf7Fzd0GN/giphy.gif",
       "title": " Qual das propriedades de um elemento da tabela controla o posicionamento da legenda da tabela? Qual dos picos abaixo é avistado na cidade de Ouro Preto?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 3,
       "alternatives": [
         ":border-collapse | Pico do Gavião" ,
@@ -235,7 +235,7 @@
     {
       "image": "https://media.giphy.com/media/l2QDUxcli4pw5yiOs/giphy.gif",
       "title": "Como fazer um background gradiente com css? Qual é o nome do parque nacional que abriga a montanha Agulhas Negras?",
-      "description": "Quiz sobre montanhas do Brasil e CSS. Enquanto assimila um, aprende um pouco do outro!",
+      "description": "Quiz sobre CSS e montanhas do Brasil",
       "answer": 0,
       "alternatives": [
          "background: linear-gradient(#e66465, #9198e5); Parque Nacional de Itatiaia",
